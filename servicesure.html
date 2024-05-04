@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title -->
+    <title>SERVICESURE | R. C. MOTORS Ltd.</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.jpg">
+
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Slick Plugin -->
+    <link rel="stylesheet" href="css/slick.css">
+
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive Style Sheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-end">
+                        <p class="opening-hour">open: Mon - Fri 8 - 5.30</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="main-header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-end">
+                            <a class="header-action" href="tel:01743245962">01743 245962</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-navigation-keys">
+                <!-- Desktop Menu -->
+                <nav class="desktop-menu navbar navbar-expand-md">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img class="rc-logo" src="images/logo.png" alt="r c motors ltd logo" />
+                        </a>
+                        <ul class="nav-ul w-100">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown-li position-relative">
+                                <a class="nav-link d-inline-flex gap-1 align-items-center service-dropdown" href="services.html">
+                                    <span>Services</span>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <ul class="services-dropdown-menu">
+                                    <li><a href="#">Car Servicing</a></li>
+                                    <li><a href="#">Repairs</a></li>
+                                    <li><a href="#">Tyres</a></li>
+                                    <li><a href="#">Air Conditions</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mot.html">Mot</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="servicesure.html">ServiceSure</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- Mobile Menu -->
+                <nav class="mobile-menu">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <a class="navbar-brand" href="index.html">
+                                    <img class="rc-logo" src="images/logo.png" alt="r c motors ltd logo" />
+                                </a>
+                            </div>
+                            <div class="col-6 text-end">
+                                <button 
+                                    class="btn solidbar" 
+                                    type="button" 
+                                    data-bs-toggle="offcanvas" 
+                                    data-bs-target="#offcanvasWithBothOptions" 
+                                    aria-controls="offcanvasWithBothOptions"
+                                >
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-start text-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                                    <div class="offcanvas-header">
+                                        <a href="index.html">
+                                            <img class="canvas-rc-logo" src="images/logo.png" alt="r c motors ltd logo" />
+                                        </a>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <ul class="mobile-nav-ul w-100">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html">Home</a>
+                                            </li>
+                                            <li class="nav-item dropdown-li position-relative">
+                                                <a class="nav-link d-inline-flex gap-1 justify-content-between align-items-center service-dropdown" href="services.html">
+                                                    Services
+                                                </a>
+                                                <button type="button" class="services-dropdown-toggle">
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </button>
+                                                <ul class="mobile-services-dropdown-menu">
+                                                    <li><a href="#">Car Servicing</a></li>
+                                                    <li><a href="#">Repairs</a></li>
+                                                    <li><a href="#">Tyres</a></li>
+                                                    <li><a href="#">Air Conditions</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="mot.html">Mot</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" href="servicesure.html">ServiceSure</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="contact.html">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- ServiceSurePage Start -->
+    <main class="servicesure-page">
+        <div class="servicesure section-ways-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <img src="images/servicesure/servicesure_logo.png" alt="servicesure logo" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-slider-bg">
+                            <div class="col-xl-5 col-lg-6">
+                                <div class="text-slider">
+                                    <div class="text-slider-content">
+                                        <h1>Total peace of mind</h1>
+                                        <div class="text-slider-inner">
+                                            <p>
+                                                Servicesure has an exclusive National Warranty Scheme that guarantees all replacements parts fitted by our garages.
+                                            </p>
+                                            <ol>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    12 month parts & labour warranty
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Repairs at any Servicesure Autocentre
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Claims handled by our UK office
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <p>
+                                            More information about our national warranty
+                                            <i class="fa-solid fa-angles-right"></i>
+                                        </p>
+                                    </div>
+                                    <div class="text-slider-content">
+                                        <h1>Total peace of mind</h1>
+                                        <div class="text-slider-inner">
+                                            <p>
+                                                Servicesure has an exclusive National Warranty Scheme that guarantees all replacements parts fitted by our garages.
+                                            </p>
+                                            <ol>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    12 month parts & labour warranty
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Repairs at any Servicesure Autocentre
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Claims handled by our UK office
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <p>
+                                            More information about our national warranty
+                                            <i class="fa-solid fa-angles-right"></i>
+                                        </p>
+                                    </div>
+                                    <div class="text-slider-content">
+                                        <h1>Total peace of mind</h1>
+                                        <div class="text-slider-inner">
+                                            <p>
+                                                Servicesure has an exclusive National Warranty Scheme that guarantees all replacements parts fitted by our garages.
+                                            </p>
+                                            <ol>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    12 month parts & labour warranty
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Repairs at any Servicesure Autocentre
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Claims handled by our UK office
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <p>
+                                            More information about our national warranty
+                                            <i class="fa-solid fa-angles-right"></i>
+                                        </p>
+                                    </div>
+                                    <div class="text-slider-content">
+                                        <h1>Total peace of mind</h1>
+                                        <div class="text-slider-inner">
+                                            <p>
+                                                Servicesure has an exclusive National Warranty Scheme that guarantees all replacements parts fitted by our garages.
+                                            </p>
+                                            <ol>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    12 month parts & labour warranty
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Repairs at any Servicesure Autocentre
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Claims handled by our UK office
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <p>
+                                            More information about our national warranty
+                                            <i class="fa-solid fa-angles-right"></i>
+                                        </p>
+                                    </div>
+                                    <div class="text-slider-content">
+                                        <h1>Total peace of mind</h1>
+                                        <div class="text-slider-inner">
+                                            <p>
+                                                Servicesure has an exclusive National Warranty Scheme that guarantees all replacements parts fitted by our garages.
+                                            </p>
+                                            <ol>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    12 month parts & labour warranty
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Repairs at any Servicesure Autocentre
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Claims handled by our UK office
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <p>
+                                            More information about our national warranty
+                                            <i class="fa-solid fa-angles-right"></i>
+                                        </p>
+                                    </div>
+                                    <div class="text-slider-content">
+                                        <h1>Total peace of mind</h1>
+                                        <div class="text-slider-inner">
+                                            <p>
+                                                Servicesure has an exclusive National Warranty Scheme that guarantees all replacements parts fitted by our garages.
+                                            </p>
+                                            <ol>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    12 month parts & labour warranty
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Repairs at any Servicesure Autocentre
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                    Claims handled by our UK office
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <p>
+                                            More information about our national warranty
+                                            <i class="fa-solid fa-angles-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="servicesure-total-peace section-ways-gap">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 col-xl-5">
+                        <h2>Total peace of mind</h2>
+                        <p>
+                            Servicesure has an exclusive National Warranty Scheme that guarantees all replacements parts fitted by our garages.
+                        </p>
+                        <ol>
+                            <li>
+                                <i class="fa-solid fa-angles-right"></i>
+                                12 month parts & labour warranty
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-angles-right"></i>
+                                Repairs at any Servicesure Autocentre
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-angles-right"></i>
+                                Claims handled by our UK office
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0">
+                        <img src="images/servicesure/1.jpg" class="w-100" alt="rc motors" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ServiceSurePage End -->
+
+    <!-- BTT Start -->
+    <div class="btt" title="back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- BTT End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="main-footer">
+            <div class="container">
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-lg-4">
+                        <h5>R.C. Motors Ltd.</h5>
+                        <div class="footer-inner">
+                            <address>56 Ennerdale Road Shrewsbury SY1 3LD</address>
+                            <ul class="d-flex gap-2">
+                                <li>
+                                    <span>Tel:</span>
+                                    <a href="tel:01743245962 "> 01743 245962</a>
+                                </li>
+                                <li>
+                                    <span>Fax:</span>
+                                    <a href="tel:01743235196 ">01743 235196</a>
+                                </li>
+                            </ul>
+                            <a href="mailto:enquiries@rcmotors.co.uk">enquiries@rcmotors.co.uk</a>
+                        </div>
+                        <div class="social d-inline-flex gap-3 align-items-center">
+                            <a href="https://www.facebook.com/rcmotors.co.uk" target="_blank"><img src="images/fb_logo.png" alt="fb logo" /></a>
+                            <a href="https://www.facebook.com/rcmotors.co.uk" target="_blank">@rcmotors.co.uk</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="copyright"> &copy; R.C. Motors Ltd. All Rights Reserved
+                            Design & Hosting WS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <div class="shape3"></div>
+        <div class="shape4"></div>
+    </footer>
+    <!-- Footer End -->
+    
+    <!-- jQuery Library -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Slick Plugin -->
+    <script src="js/slick.min.js"></script>
+
+    <!-- Main Script Sheet -->
+    <script src="js/script.js"></script>
+</body>
+</html>

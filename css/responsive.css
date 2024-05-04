@@ -1,0 +1,501 @@
+@media (min-width: 1699px) and (max-width: 1999.98px) {
+    .slider-content .overly-left,
+    .slider-content .overly-right {
+        width: 40%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    :root {
+        --h1: 30px;
+        --h2: 27px;
+        --h3: 24px;
+        --h4: 21px;
+        --h5: 19px;
+        --h6: 17px;
+        --lg: 17px;
+        --bs: 15px;
+        --sm: 14px;
+    }
+
+    .section-ways-gap {
+        padding: 48px 0;
+    }
+
+    .main-navigation-keys .rc-logo {
+        width: 340px;
+    }
+
+    .slider-content {
+        height: 520px;
+    }
+
+    .slider-content .overly-left,
+    .slider-content .overly-right {
+        width: 34%;
+    }
+
+    .slider-content-inner .icon {
+        margin-bottom: 20px;
+    }
+
+    .slider-content-inner p {
+        margin-top: 12px;
+    }
+
+    .servicesure-page .text-slider-bg {
+        padding: 60px 0;
+    }
+
+    .servicesure img {
+        width: 60%;
+    }
+
+    .text-slider .slick-dots li {
+        margin: 0 2px;
+    }
+
+    .text-slider .slick-dots li button {
+        height: 16px;
+        width: 16px;
+    }
+
+    .contact-page .map iframe {
+        height: 340px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    :root {
+        --h1: 28px;
+        --h2: 26px;
+        --h3: 23px;
+        --h4: 20px;
+        --h5: 18px;
+        --h6: 17px;
+        --lg: 17px;
+        --bs: 15px;
+        --sm: 14px;
+    }
+
+    .section-ways-gap {
+        padding: 40px 0;
+    }
+
+    .mobile-menu .rc-logo {
+        width: 300px;
+    }
+
+    .slider-content {
+        height: 480px;
+    }
+
+    .slider-content .overly-left,
+    .slider-content .overly-right {
+        width: 45%;
+    }
+
+    .slider-content-inner .icon {
+        margin-bottom: 20px;
+    }
+
+    .slider-content-inner p {
+        margin-top: 12px;
+    }
+
+    .mot-page .m-top {
+        margin-top: 20px;
+    }
+
+    .servicesure img {
+        width: 60%;
+    }
+
+    .text-slider .slick-dots li button {
+        height: 16px;
+        width: 16px;
+    }
+
+    .contact-page .map iframe {
+        height: 300px;
+    }
+
+    .servicesure-content p {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        padding: 4px 0;
+    }
+
+    .mobile-menu .solidbar i {
+        font-size: 19px;
+    }
+
+    .canvas-rc-logo {
+        width: 250px;
+    }
+
+    .mobile-nav-ul li {
+        margin: 2px 0;
+    }
+
+    .mobile-nav-ul li a {
+        padding: 8px 0 8px 8px;
+        width: 100%;
+        color: var(--blue_color);
+        border-left: 2px solid rgba(6, 23, 179, 0.1);
+        background-color: rgba(6, 23, 179, 0.050);
+        text-transform: uppercase;
+        font-weight: 600;
+        transition: var(--transition);
+        -webkit-transition: var(--transition);
+        -moz-transition: var(--transition);
+        -ms-transition: var(--transition);
+        -o-transition: var(--transition);
+    }
+
+    .mobile-nav-ul li a:hover,
+    .mobile-nav-ul li a.active,
+    .mobile-nav-ul .dropdown-li.clicked .service-dropdown {
+        color: var(--red_color);
+        border-left: 2px solid var(--red_color);
+        background-color: rgba(6, 23, 179, 0.050);
+    }
+
+    .mobile-nav-ul .dropdown-li .services-dropdown-toggle {
+        padding: 0 8px;
+        border: none;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        z-index: 2;
+        background-color: rgba(128, 128, 128, 0.250);
+        transition: var(--transition);
+        -webkit-transition: var(--transition);
+        -moz-transition: var(--transition);
+        -ms-transition: var(--transition);
+        -o-transition: var(--transition);
+    }
+
+    .mobile-nav-ul .dropdown-li .services-dropdown-toggle:hover {
+        background-color: rgba(128, 128, 128, 0.150);
+    }
+
+    .mobile-nav-ul .dropdown-li .services-dropdown-toggle i {
+        color: var(--blue_color);
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transition: var(--transition);
+        -webkit-transition: var(--transition);
+        -moz-transition: var(--transition);
+        -ms-transition: var(--transition);
+        -o-transition: var(--transition);
+    }
+
+    .mobile-nav-ul .dropdown-li.clicked .services-dropdown-toggle i {
+        color: var(--blue_color);
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    .main-footer {
+        text-align: center;
+    }
+
+    .main-footer .footer-inner {
+        padding: 8px 0;
+    }
+
+    .main-footer ul {
+        justify-content: center;
+    }
+
+    .main-footer .copyright {
+        margin-top: 12px;
+    }
+
+    .servicesure-page .text-slider-bg {
+        background: transparent;
+    }
+
+    .text-slider-content {
+        color: var(--black_color);
+    }
+
+    .text-slider .slick-dots li button {
+        background: #e2def7;
+    }
+
+    .text-slider .slick-dots li.slick-active button {
+        background: var(--purple_color);
+    }
+
+    .servicesure-page .text-slider-bg {
+        padding: 40px 0;
+    }
+
+    .text-slider .slick-dots li {
+        margin: 0 2px;
+    }
+
+    .contact-page .form-btn {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    :root {
+        --h1: 25px;
+        --h2: 24px;
+        --h3: 21px;
+        --h4: 19px;
+        --h5: 16px;
+        --h6: 16px;
+        --lg: 16px;
+        --bs: 15px;
+        --sm: 14px;
+    }
+
+    .section-ways-gap {
+        padding: 40px 0;
+    }
+
+    .mobile-menu .rc-logo {
+        width: 280px;
+    }
+
+    .slider-content {
+        height: 440px;
+    }
+
+    .hero-content .next svg, 
+    .hero-content .prev svg {
+        height: 40px;
+        width: 40px;
+    }
+
+    .slider-content .overly-left,
+    .slider-content .overly-right {
+        width: 45%;
+    }
+
+    .slider-content-inner .icon {
+        margin-bottom: 16px;
+    }
+
+    .slider-content-inner p {
+        margin-top: 8px;
+    }
+
+    .slider-content-inner {
+        padding: 40px 10px;
+    }
+
+    .mot-page .m-top {
+        margin-top: 20px;
+    }
+
+    .servicesure img {
+        width: 60%;
+    }
+
+    .text-slider-inner ol {
+        margin: 20px 0;
+    }
+
+    .text-slider .slick-dots li button {
+        height: 16px;
+        width: 16px;
+    }
+
+    .contact-page .map iframe {
+        height: 300px;
+    }
+
+    .services-page h4 {
+        font-size: var(--h3);
+    }
+
+    .services-page .rc-motors .text-uppercase {
+        font-size: var(--bs);
+    }
+
+    .servicesure-content p {
+        padding: 0 10px;
+    }
+
+    .mot h1 {
+        font-size: var(--h2);
+    }
+
+    .mot-page h2 {
+        font-size: var(--h4);
+    }
+
+    .mot-testing iframe {
+        width: 100%;
+    }
+
+    .mot-offer h4 {
+        margin-bottom: 4px;
+    }
+
+    .mot-offer h5 {
+        margin-bottom: 4px;
+    }
+
+    .text-slider .slick-dots {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .form-inner .d-flex {
+        display: block !important;
+    }
+
+    .form-inner .d-flex .w-50 {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    :root {
+        --h1: 24px;
+        --h2: 22px;
+        --h3: 20px;
+        --h4: 18px;
+        --h5: 16px;
+        --h6: 16px;
+        --lg: 16px;
+        --bs: 15px;
+        --sm: 14px;
+    }
+
+    .section-ways-gap {
+        padding: 32px 0;
+    }
+
+    .mobile-menu {
+        padding: 2px 0;
+    }
+
+    .mobile-menu .rc-logo {
+        width: 220px;
+    }
+
+    .slider-content {
+        height: 360px;
+    }
+
+    .hero-content .next svg, 
+    .hero-content .prev svg {
+        display: none;
+    }
+
+    .slider-content .overly-left,
+    .slider-content .overly-right {
+        width: 100%;
+        height: 44%;
+    }
+
+    .slider-content-inner .icon {
+        margin-bottom: 8px;
+    }
+
+    .slider-content-inner p {
+        margin-top: 6px;
+    }
+
+    .slider-content-inner {
+        padding: 20px 10px;
+    }
+
+    .mot-page .m-top {
+        margin-top: 20px;
+    }
+
+    .servicesure img {
+        width: 60%;
+    }
+
+    .text-slider-inner ol {
+        margin: 20px 0;
+    }
+
+    .text-slider .slick-dots li button {
+        height: 16px;
+        width: 16px;
+    }
+
+    .contact-page .map iframe {
+        height: 220px;
+    }
+
+    .services-page h4 {
+        font-size: var(--h3);
+    }
+
+    .services-page .rc-motors .text-uppercase {
+        font-size: var(--bs);
+    }
+
+    .servicesure-content p {
+        padding: 0 10px;
+    }
+
+    .mot h1 {
+        font-size: var(--h2);
+    }
+
+    .mot-page h2 {
+        font-size: var(--h4);
+    }
+
+    .mot-testing iframe {
+        width: 100%;
+    }
+
+    .mot-offer h4 {
+        margin-bottom: 4px;
+    }
+
+    .mot-offer h5 {
+        margin-bottom: 4px;
+    }
+
+    .text-slider-content {
+        padding: 0 10px;
+    }
+
+    .text-slider .slick-dots {
+        padding-left: 10px;
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+    }
+
+    .contact-page .contact-form {
+        padding: 28px 0;
+    }
+}
