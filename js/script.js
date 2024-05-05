@@ -10,14 +10,14 @@
     $(window).scroll(function(){
         let scrolling = $(this).scrollTop();
     
-        if( scrolling > 180){
+        if( scrolling > 100){
         $(".main-header").addClass("sticky-nav");
         }
         else{
         $(".main-header").removeClass("sticky-nav");
         }
     
-        if( scrolling > 400){
+        if( scrolling > 200){
             $(".btt i").fadeIn(500);
         }
         else{
